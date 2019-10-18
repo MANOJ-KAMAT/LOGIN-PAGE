@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <title>Login form</title>
+<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" >
+  <link rel="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" >
+<style>
+body{
+  background: #fff;;
+}
+form{
+  background:
+}
+.container {
+
+}
+
+.form-horizontal {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+
+}
+.form-horizontal .form-head,
+{
+  margin-bottom: 30px;
+}
+.form-horizontal .checkbox {
+  font-weight: normal;
+}
+
+.form-horizontal input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+
+  border: 2px solid lightblue;
+ border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-horizontal input[type=text]:focus {
+  background-color: 3px solid #555;
+
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <div class="col-12 " style="width: 600px; margin-left: 250px; margin-top:50px;">
+    <div class="jumbotron">
+    <div class="form-group" style="margin-top: -50px;">
+      <h1 class="form-head" style="margin-left: 90px;" >
+        Please Login
+      </h1>
+    </div>
+
+
+  <form class="form-horizontal" style="margin-left: 50px; width:450px;">
+    <div class="form-group input-group">
+
+  <label for="uname"><b><Username></b></label>
+  <input type="text" placeholder="Email Address" name="uname" required>
+    </div>
+
+    <div class="form-group input-group">
+  <label for="psw"><b><Password></b></label>
+  <input type="password"class="from-usr" placeholder="Password" name="psw"  required>
+   </div>
+
+  <div  class="form-group ">
+   <label>
+     <input type="checkbox"  name="remember"> Remember me
+   </label>
+ </div>
+
+ <div  class="form-group">
+  <button class="btn btn-primary" style="width:320px;">Login</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
